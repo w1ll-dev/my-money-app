@@ -1,5 +1,12 @@
+import '../common/template/dependencies'
 import React from 'react'
 
+import Header from '../common/template/header'
+import SideBar from '../common/template/sideBar'
+
 export default props => (
-    <h1>app</h1>
+    <div className="wrapper">
+        <Header/>
+        <SideBar/>
+    </div>
 )
