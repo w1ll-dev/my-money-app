@@ -1,7 +1,28 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const BillingCycles = () => (
-    <h1>BillingCycles</h1>
-)
+import Tabs from '../common/tabs/tabs'
+import TabsHeader from '../common/tabs/tabsHeader';
+import TabsContent from '../common/tabs/tabsContent';
+import ContentHeader from '../common/template/contentHeader';
+import Content from '../common/template/content';
 
+class BillingCycles extends Component { 
+    render(){
+        return (
+            <div>
+                <ContentHeader title='Payment Cycles' small=' register'/>
+                <Content>
+                    <Tabs>
+                        <TabsHeader>
+
+                        </TabsHeader>
+                        <TabsContent>
+
+                        </TabsContent>
+                    </Tabs>
+                </Content>
+            </div>
+        )
+    }
+}
 export default BillingCycles
