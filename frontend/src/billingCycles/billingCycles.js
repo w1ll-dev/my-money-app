@@ -14,6 +14,7 @@ import { bindActionCreators } from 'redux';
 import { selectedTab } from '../common/tabs/tabActions';
 import { showTabs } from '../common/tabs/tabActions';
 import List from './billingCyclesList';
+import Form from './billingCycleForm';
 
 class BillingCycles extends Component {
     componentWillMount() {
@@ -52,7 +53,9 @@ class BillingCycles extends Component {
                             <TabContent id='tabList'>
                                 <List/>
                             </TabContent>
-                            <TabContent id='tabCreate'><h1>Create</h1></TabContent>
+                            <TabContent id='tabCreate'>
+                                <Form/>
+                            </TabContent>
                             <TabContent id='tabUpdate'><h1>Update</h1></TabContent>
                             <TabContent id='tabRemove'><h1>Remove</h1></TabContent>
                         </TabsContent>
