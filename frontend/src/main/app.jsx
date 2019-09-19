@@ -8,6 +8,8 @@ import Footer from '../common/template/footer';
 //ROUTES
 import Routes from './routes';
 
+//MESSAGES
+import Messages from '../common/msg/messages';
 
 export default props => (
     <div className="wrapper">
@@ -17,5 +19,6 @@ export default props => (
             <Routes/>
         </div>
         <Footer/>
+        <Messages/>
     </div>
 )
