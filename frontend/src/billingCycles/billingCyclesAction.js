@@ -9,3 +9,6 @@ export const getList = () => {
     }
 }
 
+export const create = (values) => {
+    return axios.post(BASE_URL, values)
+}
