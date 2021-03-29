@@ -19,7 +19,7 @@
     "lodash": "^4.17.19",
     "minimist": "^1.2.3",
     "mongodb": "^3.6.5",
-    "mongoose": "^4.13.19",
+    "mongoose": ">=5.7.5",
     "mongoose-paginate": "^5.0.3",
     "mquery": "^3.2.3",
     "node-restful": "^0.2.5",
